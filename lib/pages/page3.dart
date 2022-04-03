@@ -99,89 +99,377 @@ class _Page3State extends State<Page3> {
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://getwallpapers.com/wallpaper/full/2/1/6/886979-thunderstorm-wallpaper-1920x1080-for-mobile-hd.jpg',
+                  'https://a.d-cd.net/c74602ds-1920.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://images6.alphacoders.com/459/thumb-1920-459669.jpg',
+                  'https://jooinn.com/images/grizzly-bears-3.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Image.network(
+                'https://www.onetwotrip.com/ru/blog/wp-content/uploads/2016/10/caribbean-island.jpg',
+                fit: BoxFit.cover,
+                frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+                  return child;
+                },
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  } else {
+                    return Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Image.network(
+                'https://lubopitnie.ru/wp-content/uploads/2018/03/kanon-1.jpg',
+                fit: BoxFit.cover,
+                frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+                  return child;
+                },
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  } else {
+                    return Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://www.wallpaperflare.com/static/408/526/418/nature-rainbows-road-rainbow-wallpaper.jpg',
+                  'https://agw.ru/wp-content/uploads/2014/07/uzbekistan_fruits_watermwlon.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/sunlight-landscape-nature-grass-sky-field-storm-morning-wind-horizon-thunder-cloud-weather-grassland-agriculture-meadow-plain-prairie-rural-area-computer-wallpaper-grass-family-229621.jpg',
+                  'https://avatars.mds.yandex.net/get-zen_doc/1588093/pub_5d8074f698fe7900ac84aca8_5d8084d9a660d700ae52af35/scale_1200',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/trees-landscape-nature-building-plants-field-clouds-lightning-storm-wind-horizon-atmosphere-thunder-supercell-nature-cloud-weather-thunderstorm-plain-1920x1080-px-prairie-572917.jpg',
+                  'https://w-dog.ru/wallpapers/1/5/448277296581784/avtomobil-chevrolet-korvet-stingray-twin-turbo-s7-2014-shevrolet-mashina-krasnyj-avto-sportkar-tyuning-zakat.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://getwallpapers.com/wallpaper/full/9/2/3/463516.jpg',
+                  'https://visaapp.ru/wp-content/uploads/2018/11/Podvodnyj-mir-Krasnogo-morya.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://cdn.wallpapersafari.com/8/10/atRQlj.jpg',
+                  'https://phonoteka.org/uploads/posts/2021-06/1624306465_31-phonoteka_org-p-novogodnie-oboi-snegovik-krasivo-36.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/sea-sky-storm-coast-wind-horizon-atmosphere-cloud-weather-ocean-wave-1366x768-px-computer-wallpaper-geological-phenomenon-wind-wave-arctic-ocean-General-537196.jpg',
+                  'https://fastmb.ru/uploads/posts/2017-07/1499201341_novyy-zaryazhennyy-sportkar-dodge-viper-2017.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://avondhupress.ie/wp-content/uploads/2016/03/Rainfall-Downpour.jpg',
+                  'https://klkfavorit.ru/wp-content/uploads/8/8/e/88ef58c190bcff61b51fa15811327a8a.jpeg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://rsute.ru/wp-content/uploads/2021/02/zima-sneg-devushka-nastroenie.jpg',
+                  'https://ribalych.ru/wp-content/uploads/2013/12/7230.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://proprikol.ru/wp-content/uploads/2020/10/kartinki-ogon-i-voda-14.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://qpic.ws/images/23zkz.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://i.pinimg.com/originals/2c/65/10/2c6510abc7619652efa1a7ef65a1f40b.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
             ),

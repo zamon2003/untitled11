@@ -98,89 +98,377 @@ class _Page1State extends State<Page1> {
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://img.fonwall.ru/o/2p/canada-moraine-lake-ozero-gory.jpg?route=mid&amp;h=750',
+                  'https://a.d-cd.net/c74602ds-1920.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://data.whicdn.com/images/242084377/original.jpg',
+                  'https://jooinn.com/images/grizzly-bears-3.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Image.network(
+                'https://www.onetwotrip.com/ru/blog/wp-content/uploads/2016/10/caribbean-island.jpg',
+                fit: BoxFit.cover,
+                frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+                  return child;
+                },
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  } else {
+                    return Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Image.network(
+                'https://lubopitnie.ru/wp-content/uploads/2018/03/kanon-1.jpg',
+                fit: BoxFit.cover,
+                frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+                  return child;
+                },
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  } else {
+                    return Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/Hong-Kong-road-night-building-top-view-1053343.jpg',
+                  'https://agw.ru/wp-content/uploads/2014/07/uzbekistan_fruits_watermwlon.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://footiespot.com/wp-content/uploads/2018/02/Luka-Modric.jpg',
+                  'https://avatars.mds.yandex.net/get-zen_doc/1588093/pub_5d8074f698fe7900ac84aca8_5d8084d9a660d700ae52af35/scale_1200',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701677858.jpg',
+                  'https://w-dog.ru/wallpapers/1/5/448277296581784/avtomobil-chevrolet-korvet-stingray-twin-turbo-s7-2014-shevrolet-mashina-krasnyj-avto-sportkar-tyuning-zakat.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://motaen.com/upload/resize/1440/900/upload/wallpapers/source/2013/06/25/13/02/36395/jIQiM0JCTP-a84.jpg',
+                  'https://visaapp.ru/wp-content/uploads/2018/11/Podvodnyj-mir-Krasnogo-morya.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/Brooklyn-Bridge-night-nyc-united-states-1087009.jpg',
+                  'https://phonoteka.org/uploads/posts/2021-06/1624306465_31-phonoteka_org-p-novogodnie-oboi-snegovik-krasivo-36.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://i.pinimg.com/originals/62/c5/fd/62c5fd8c47f95bfeaae4f1dd0b84d78e.jpg',
+                  'https://fastmb.ru/uploads/posts/2017-07/1499201341_novyy-zaryazhennyy-sportkar-dodge-viper-2017.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://www.iliketowastemytime.com/sites/default/files/nature-trail-forest-hd-wallpaper.jpg',
+                  'https://klkfavorit.ru/wp-content/uploads/8/8/e/88ef58c190bcff61b51fa15811327a8a.jpeg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://image.winudf.com/v2/image/Y29tLlRpZ2VybGl2ZXdhbGxwYXBlcl9zY3JlZW5fNV8xNTMwMTQ2MTU3XzA5Mw/screen-5.jpg?fakeurl=1&type=.jpg',
+                  'https://ribalych.ru/wp-content/uploads/2013/12/7230.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://proprikol.ru/wp-content/uploads/2020/10/kartinki-ogon-i-voda-14.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://qpic.ws/images/23zkz.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://i.pinimg.com/originals/2c/65/10/2c6510abc7619652efa1a7ef65a1f40b.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
             ),

@@ -27,8 +27,9 @@ class _SideBarState extends State<SideBar> {
               height: 240,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://www.pngitem.com/pimgs/m/164-1649466_clip-art-computer-icons-portable-network-vector-camara.png'),
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
                   fit: BoxFit.cover,
                 ),
               ),

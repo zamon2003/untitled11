@@ -99,89 +99,377 @@ class _Page2State extends State<Page2> {
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://wallpapershome.ru/images/wallpapers/olen-7680x4320-milie-jivotnie-les-4575.jpg',
+                  'https://a.d-cd.net/c74602ds-1920.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/flowers-grass-squirrel-wildlife-chipmunk-animal-flower-fauna-mammal-possum-vertebrate-marsupial-opossum-642380.jpg',
+                  'https://jooinn.com/images/grizzly-bears-3.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Image.network(
+                'https://www.onetwotrip.com/ru/blog/wp-content/uploads/2016/10/caribbean-island.jpg',
+                fit: BoxFit.cover,
+                frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+                  return child;
+                },
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  } else {
+                    return Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Image.network(
+                'https://lubopitnie.ru/wp-content/uploads/2018/03/kanon-1.jpg',
+                fit: BoxFit.cover,
+                frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
+                  return child;
+                },
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) {
+                    return child;
+                  } else {
+                    return Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                },
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://cdn.oboi7.com/16652751f2c27fbcc9aa314f2d83d9646c3428de/zhivotnye-slony-slonenok-rebenok-zhivotnyh.jpg',
+                  'https://agw.ru/wp-content/uploads/2014/07/uzbekistan_fruits_watermwlon.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://cdn.pixabay.com/photo/2014/10/18/22/26/squirrel-493790_1280.jpg',
+                  'https://avatars.mds.yandex.net/get-zen_doc/1588093/pub_5d8074f698fe7900ac84aca8_5d8084d9a660d700ae52af35/scale_1200',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://www.culture.ru/storage/images/5abe06158db66bde4106e575236b96fb/c6657d9cd089adbd77c2eeadccca39ec.jpeg',
+                  'https://w-dog.ru/wallpapers/1/5/448277296581784/avtomobil-chevrolet-korvet-stingray-twin-turbo-s7-2014-shevrolet-mashina-krasnyj-avto-sportkar-tyuning-zakat.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://funart.pro/uploads/posts/2021-04/1618023303_9-p-oboi-zhivotnii-mir-afriki-9.jpg',
+                  'https://visaapp.ru/wp-content/uploads/2018/11/Podvodnyj-mir-Krasnogo-morya.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/1920x1200-px-animals-tiger-751200.jpg',
+                  'https://phonoteka.org/uploads/posts/2021-06/1624306465_31-phonoteka_org-p-novogodnie-oboi-snegovik-krasivo-36.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://get.wallhere.com/photo/animals-baby-animals-red-panda-bear-fauna-mammal-1600x1200-px-vertebrate-dog-breed-group-giant-panda-729726.jpg',
+                  'https://fastmb.ru/uploads/posts/2017-07/1499201341_novyy-zaryazhennyy-sportkar-dodge-viper-2017.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://i.pinimg.com/originals/6d/72/8a/6d728acb2c08de50d0f20a95386882a1.jpg',
+                  'https://klkfavorit.ru/wp-content/uploads/8/8/e/88ef58c190bcff61b51fa15811327a8a.jpeg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
             ),
             ListTile(
               title: Container(
                 height: 300,
                 child: Image.network(
-                  'https://wallpaperscave.com/images/original/18/05-02/animals-big-cats-lion-47157.jpg',
+                  'https://ribalych.ru/wp-content/uploads/2013/12/7230.jpg',
                   fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://proprikol.ru/wp-content/uploads/2020/10/kartinki-ogon-i-voda-14.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://qpic.ws/images/23zkz.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
+                ),
+              ),
+            ),
+            Divider(
+              color: Colors.black,
+              thickness: 2,
+            ),
+            ListTile(
+              title: Container(
+                height: 300,
+                child: Image.network(
+                  'https://i.pinimg.com/originals/2c/65/10/2c6510abc7619652efa1a7ef65a1f40b.jpg',
+                  fit: BoxFit.cover,
+                  frameBuilder:
+                      (context, child, frame, wasSynchronouslyLoaded) {
+                    return child;
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) {
+                      return child;
+                    } else {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+                  },
                 ),
               ),
             ),
